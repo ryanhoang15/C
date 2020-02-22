@@ -1,0 +1,14 @@
+//
+// Created by ryan hoang on 2/20/20.
+//
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int number;
+    cout << "Enter a number "<<endl;
+    cin >> number;
+    cout << "You Entered: "<< number;
+    return 0;
+}
