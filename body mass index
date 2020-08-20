@@ -1,0 +1,27 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  
+  double height;
+  double weight;
+  double bmi;
+  
+  // Ask user for their height
+  
+  cout << "Type in your height (m): ";
+  cin >> height;
+  
+  // Now ask the user for their weight and calculate BMI
+
+  cout << "Enter your weight: ";
+
+  cin >> weight;
+
+  bmi =  weight / (height * height);
+  cout << "Your BMI is: " << bmi << "\n";
+  
+  return 0;
+
+}
